@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="shortcut icon" href="./images/clear.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="search">
+        <input
+          type="text"
+          name="search"
+          id="searchcity"
+          placeholder="Enter city name"
+        />
+        <img src="./images/search.png" alt="search" />
+      </div>
+      <div class="error">Invalid input</div>
+      <div class="box">
+        <div class="condition">
+          <img src="" alt="weather" width="150px" />
+          <div class="sky"></div>
+        </div>
+        <div class="temp"></div>
+        <div class="feels">
+            Feels like :  &nbsp
+            <div class="feelslike"></div></div>
+        <div class="city"></div>
+        <div class="more">
+          <div class="humidity">
+            <img src="./images/humidity.png" alt="humidity" height="30px" />
+            <div class="humid">
+              <div class="humi"></div>
+              <div class="head"></div>
+            </div>
+          </div>
+          <div class="windspeed">
+            <img src="./images/wind.png" alt="wind" height="40px" />
+            <div class="wind">
+              <div class="speed"></div>
+              <div class="head"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

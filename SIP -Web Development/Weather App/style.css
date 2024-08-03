@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cont{
+    max-width: 450px;
+    width: 90%;
+    /* border: 5px solid black; */
+    margin: auto;
+    background:linear-gradient(#2980B9,#6DD5FA);
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+#searchcity{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 1.3em;
+}
+.search img{
+    height: 22px;
+    border-radius: 27px;
+    padding: 13px 14px;
+    background-color: whitesmoke;
+}
+.condition{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 4em;
+}
+.feels{
+    display: flex;
+    justify-content: center;
+}
+.city{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.humidity{
+display: flex;
+width: 30%;
+justify-content: space-between;
+
+}
+.windspeed{
+display: flex;
+width: 45%;
+justify-content: space-between;
+}
+.speed{
+    font-size: 2em;
+}
+.humi{
+    font-size: 2em;
+}
+.head{
+    font-size: 1.2em;
+}
+
+.error{
+    display: none;
+    text-align: center;
+}
+.box{
+    display: none;
+}
